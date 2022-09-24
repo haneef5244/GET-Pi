@@ -11,8 +11,8 @@ jobs:  #Workflow run is made up of one or more jobs
     runs-on: ubuntu-latest  #Through which Server OS we need to Work (type of machine to run the job on)
     steps:
     #Using versioned actions 
-      - uses: actions/checkout@v2  # --> Reference a specific version
-      - uses: actions/setup-node@v2 # --> To Setup the Server With Node Env
+      - uses: actions/checkout@v3  # --> Reference a specific version
+      - uses: actions/setup-node@v3 # --> To Setup the Server With Node Env
         with:  
           node-version: '16' #--> Specify the Version of the Node 
       - name: Configure AWS Credentials  
