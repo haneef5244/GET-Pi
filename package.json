@@ -1,0 +1,19 @@
+{
+  "name": "GET-Pi",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to return the most accurate value of Pi each time its called",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haneef5244/GET-Pi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haneef5244/GET-Pi/issues"
+  },
+  "homepage": "https://github.com/haneef5244/GET-Pi#readme"
+}
