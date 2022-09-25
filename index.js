@@ -1,8 +1,5 @@
+const { service } = require('./service')
+
 exports.handler = async (event) => {
-    // TODO implement
-    const response = {
-        statusCode: 200,
-        body: JSON.stringify('Hello from Lambda! Updated'),
-    };
-    return response;
+    return service(event)
 };
