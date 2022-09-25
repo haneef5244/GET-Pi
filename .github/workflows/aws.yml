@@ -35,5 +35,5 @@ jobs:  #Workflow run is made up of one or more jobs
           npm install
       - name: deploy
         run: |
-          zip -qq deploy.zip ./* #--> Zip the Code As we know lambda function accept the zip file.
+          zip -r9 deploy.zip #--> Zip the Code As we know lambda function accept the zip file.
           aws lambda update-function-code --function-name=GET-Pi --zip-file=fileb://deploy.zip 
